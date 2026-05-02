@@ -50,14 +50,13 @@ User Query (Natural Language)
 
 ---
 
-## 🌐 Live Demo
+## Live Demo
 
-👉 https://gen-ai-with-sql-6maxwvdygr8n97q6ujewzt.streamlit.app/
+[Live Demo](https://gen-ai-with-sql-6maxwvdygr8n97q6ujewzt.streamlit.app/)
 
----
+## Screenshot
 
-## 📸 Screenshots
+![Screenshot](screenshot1.png)
+![Screenshot](screenshot2.png)
 
-(Add screenshots of your app here — UI, input, output)
 
----
