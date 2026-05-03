@@ -38,8 +38,13 @@ if not db_uri:
     
 if not api_key:
     st.info("Please add the groq api key")
-    
-llm=ChatGroq(groq_api_key=api_key,model="qwen/qwen3-32b",streaming=True)
+    st.stop()  
+
+llm = ChatGroq(
+    groq_api_key=api_key,
+    model="qwen/qwen3-32b",
+    streaming=True
+)
 
 
 @st.cache_resource(ttl="2h")
